@@ -83,3 +83,13 @@ main{
     background-image: url("https://images.unsplash.com/photo-1675851143055-23ae996bb212?q=80&w=1013&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
+.med { 
+     position:absolute;
+    bottom: 180px;
+    left:12px;
+   background-color: #5ed6ee49;
+   padding: 16.2px;
+   border-radius: 16px;
+   max-width: 420px;
+
+}
