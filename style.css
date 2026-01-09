@@ -1,0 +1,9 @@
+*{
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex
+}
