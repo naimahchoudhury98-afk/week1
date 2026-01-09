@@ -55,7 +55,27 @@ main{
     position:absolute;
     bottom: 69px;
     right:12px;
+   background-color: #c5e7e2a0;
+   padding: 1.45em;
+   border-radius: 16px;
+   }
+
+   .ctabox p {
+    line-height:1;
+   }
+
+   .ctabox h2 {
+    line-height: 2;
+    font-size: 37px
+   }
+
+.ctabox button {
+  background-color: #627264;
+  color: white;
+  border: none;
+  padding: 8.6px 17.2px;
+  border-radius: 999px; 
+  font-size: 10.9px;
+  cursor: pointer;
 }
-
-
 
