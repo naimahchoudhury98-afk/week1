@@ -2,7 +2,6 @@
  margin: 0px;
  box-sizing: border-box;
  font-family: monospace;
- width: 100%
 }
 
 .navigation {
@@ -13,6 +12,7 @@
     z-index: 1;
     display: flex;
     justify-content: flex-start;
+    width:100%
     }
 
 .navigation ul {
@@ -35,7 +35,11 @@ nav a:hover {
     color:black;
 }
 
-        
+main{
+    padding-top:120px;
+}
+
+
     
 
 
