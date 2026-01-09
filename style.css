@@ -1,9 +1,30 @@
 *{
-    height: 1000px;
-    margin: 0px;
-    padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ font-family: monospace;
+ width: 100%
 }
 
-nav{
-    display: flex
-}
+.navigation {
+    position: fixed;
+    color: #ededed;
+    padding: 2.5rem 3rem;
+    background-color:#A1CDA8 ;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    }
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    font-size:  20px;
+    justify-content: space-between;
+    
+        }
+
+
+    
+
+
+
