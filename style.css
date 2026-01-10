@@ -43,6 +43,8 @@ main{
         background-size:cover;
     height: 50vh;
     position:relative;
+    display:flex;
+    flex-direction: column;
 
 }
 
@@ -53,11 +55,12 @@ main{
     
 .ctabox{
     position:absolute;
-    bottom: 69px;
-    right:12px;
+    bottom: 24px;
+    left:24px;
    background-color: #c5e7e2a0;
    padding: 16.2px;
    border-radius: 16px;
+   max-width: 420px;
    }
 
    .ctabox p {
@@ -85,12 +88,8 @@ main{
 
 .med { 
      position:absolute;
-    bottom: 180px;
-    left:12px;
    background-color: #5ed6ee49;
-   padding: 16.2px;
-   border-radius: 16px;
-   max-width: 420px;
+   
 
 }
 
@@ -101,12 +100,8 @@ main{
 
 .therapy {
      position:absolute;
-    bottom: 37px;
-    right:17px;
    background-color: #79787d49;
-   padding: 16.2px;
-   border-radius: 16px;
-   max-width: 420px;
+   
 }
 
 .useful{
@@ -115,11 +110,7 @@ main{
 
 .use {
  position:absolute;
-bottom: 229px;
-left:17px;
  background-color: #e3926f49;
-   padding: 16.2px;
-   border-radius: 16px;
-   max-width: 420px;
+   
 }
 
