@@ -7,19 +7,24 @@
 .navigation {
     position: fixed;
     color: #ededed;
-    padding: 2.5rem 3rem;
+    padding: 24px 32px;
     background-color:#A1CDA8 ;
     z-index: 1;
     display: flex;
     justify-content: flex-start;
-    width:100%
-    }
+    width:100%;
+}
+
+.navigation nav{
+  margin-left: auto;
+}
 
 .navigation ul {
     list-style: none;
     display: flex;
     font-size:  20px;
     justify-content: space-between;
+   
             }
 
 nav a {
