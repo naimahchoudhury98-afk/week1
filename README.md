@@ -1,5 +1,6 @@
 🎯 What requirements did you achieve?
 I was able to successfully create a navigation bar and position it where I wanted using Flexbox. The navigation looks well organised, responsive, and easy to use. I also ensured that all background images and media content load correctly across the page, and I was able to style my call-to-action sections to create a clear, user-friendly layout.
+I also use the dev tools on the browser which helped me a great deal.
 
 
 🎯 Were there any requirements or goals that you were unable to achieve?
