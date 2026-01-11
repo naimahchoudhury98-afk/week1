@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
 </head>
+
 <body>
 <header> 
     
@@ -57,8 +58,17 @@
 </main>  
 
 <footer>
-    // ADD FOOTER
+   <p>Last updated:11.01.2026 12:51 </p>
+   <button oneclick="document.getElementById('bg-music').play()">play music</button>
+   <button oneclick="document.getElementById('bg-music').pause()">pause music</button>
 </footer>
+<audio id="bg-music" loop>
+    <source src="piano-background-music-462076.mp3" type="audio/mpeg">
+    <audio id="bg-music" controls preload="auto">
+  <source src="piano-background-music-462076.mp3" type="audio/mpeg">
+</audio>
+
+</audio>
 </body>  
 
 </html>

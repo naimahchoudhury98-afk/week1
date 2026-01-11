@@ -8,7 +8,7 @@
     position: fixed;
     color: #ededed;
     padding: 24px 32px;
-    background-color:#A1CDA8 ;
+    background-color:#a1cda8d6 ;
     z-index: 1;
     display: flex;
     justify-content: flex-start;
@@ -85,6 +85,13 @@ main{
   border-radius: 999px; 
   font-size: 10.9px;
   cursor: pointer;
+  
+}
+
+ button:hover {
+   background: #A1CDA8;
+   color: black;
+
 }
 
 .medication {
@@ -121,3 +128,12 @@ main{
    
 }
 
+footer{ 
+    color: #ededed;
+    padding: 24px 32px;
+    background-color:#A1CDA8 ;
+    z-index: 1;
+    width:100%;
+    text-align: center;
+
+}
